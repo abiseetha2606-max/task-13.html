@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: red;
+        position: relative;
+        animation-name: balls;
+        animation-duration: 2s;
+        animation-iteration-count:infinite;
+        animation-direction:alternate;
+
+    
+    }
+    @keyframes balls{
+        0%{
+            top: 0;
+            left: 0;
+        }
+
+        50%{
+            top: 800px;
+            left: 800px;
+        
+        }
+        100%{
+            top: 0;
+            left: 1800px;
+        }
+        
+        
+
+        
+
+    
+        
+    }
+
+</style>
+<body>
+    <div></div>
+    
+</body>
+</html>
